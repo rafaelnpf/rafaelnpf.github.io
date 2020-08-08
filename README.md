@@ -1,16 +1,13 @@
-### Hi there 👋
+### Hello World!👋
+I'm Rafael Nunes 👋👨💻, nice to meet you!
 
-<!--
-**rafaelnpf/rafaelnpf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# About me
+- Since I had my first contact with the computer (about ten years old 😊) I am passionate about technology, always in constant learning.
+- I know how to play the harmonica 🎵 
 
-Here are some ideas to get you started:
+![Image of hello world](https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Career
+🎓: Information Systems student at [Unifacs](https://www.unifacs.br/) and Development.
+💾: HTML, CSS, JavaScript, Node.js, React, Bootstrap, always wanting to learn more and better .
+🔧: Visual Studio Code, GitHub.

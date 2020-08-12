@@ -1,5 +1,5 @@
-# Hello World! 👋
-I'm Rafael Nunes, nice to meet you! 👋👨💻
+# Hello World! 👋💻
+I'm Rafael Nunes, nice to meet you!
 
 # About me
 - Since I had my first contact with the computer (about ten years old 😊), I am passionate about technology, always in constant learning.

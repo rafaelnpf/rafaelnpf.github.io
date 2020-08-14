@@ -4,6 +4,7 @@ I'm Rafael Nunes, nice to meet you!
 # About me
 - Since I had my first contact with the computer (about ten years old 😊), I am passionate about technology, always in constant learning.
 - I know how to play the harmonica 🎵 
+- I write poetry on [instagram @txtlunar](https://www.instagram.com/txtlunar/)
 
 ![Image of hello world](https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif)
 

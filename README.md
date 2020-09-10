@@ -1,14 +1,30 @@
-# Hello World! 👋💻
-I'm Rafael Nunes, nice to meet you!
+<p align="center">
+    <img alt="License" src="https://img.shields.io/github/license/rafaelnpf/Calculadora-IMC">
+</p>
+<br>
 
-# About me
-- Since I had my first contact with the computer (about ten years old 😊), I am passionate about technology, always in constant learning.
-- I know how to play the harmonica 🎵 
-- I write poetry on [instagram @txtlunar](https://www.instagram.com/txtlunar/)
+## 💻 Projeto
 
-![Image of hello world](https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif)
+Fazendo parte do nosso cotidiano, sites tem múltiplas funções. Pode ser um portfólio, para vendas, oferecer serviços... Para mim, que sou developer, um site é arte.
+Seja qual for a finalidade, a união de estética, funcionalidade, e, é claro, um bom desenvolvedor que utilize as linguagens da melhor forma possível, são a receita certa para que qualquer site seja um sucesso.
+O meu foco é apresentar sites que sejam rápidos, eficientes e responsivos, que ofereçam uma experiência clara e objetiva a quem o acessa. O minimalismo associado a um bom design e efetividade são as melhores formas de apresentação para que sua mensagem ao cliente seja clara e efetiva.
+Assim, que forma melhor de apresentar minha habilidades senão com o meu próprio site?
+Apresento então o meu site, minha criação.
+Todo dia aperfeiçoando ainda mais o conjunto de técnicas para oferecer aos meus clientes o melhor possível.
 
-# Career
-- 🎓: Information Systems student at [Unifacs](https://www.unifacs.br/) and Development.
-- 💾: HTML, CSS, JavaScript, Node.js, React, Bootstrap, always wanting to learn more and better.
-- 🔧: Visual Studio Code, GitHub.
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [html](https://html5.org/)
+- [CSS](https://cssreference.io/)
+- [JavaScript](https://www.javascript.com/)
+- [Bootstrap](https://getbootstrap.com.br/)
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Feito por [Rafael Nunes](https://github.com/rafaelnpf).

@@ -1,166 +1,147 @@
 body {
-	font-family: "Crimson Text", "Times New Roman", serif;
-	background-color: #F2FFFC;
-	font-size: 120%;
-	line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+    font-size: 120%;
+    line-height: 1.5px;
 }
 
-h1, h2 {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
 }
 
 .titulo-principal {
-	text-align: center;
-	background-color: #851944;
-	color: #FFF;
-	padding: 25px;
-	border-bottom: 10px solid black;
-	font-size: 60px;
-	text-transform: uppercase;
+    text-align: center;
+    background-color: #686d76;
+    color: #FFF;
+    padding: 15px;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 117.6%;
 }
 
 p {
-	text-align: justify;
-	margin: 20px 0;
+    text-align: justify;
 }
 
 .citacao-bio {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;
-	margin: 20px 40px;
-}
-
-.navegacao-site {
-	text-align: center;
-	background-color: #3C1D3D;
-	color: #F2FFFC;
+    background-color: #a6a6a4;
+    border: 5px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
 }
 
 .rodape-pagina {
-	background-color: #000;
-	color: #F2FFFC;
-	clear: both;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 main a {
-	color: #851944;
-}
-
-.navegacao-site a {
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
-}
-
-.citacao-bio, .navegacao-site, .rodape-pagina {
-    padding: 20px;
+    color: #686d76;
 }
 
 .container {
-	width: 720px;
-	margin: auto;
-	padding: 30px 0;
-}
-
-.navegacao-site h1 {
-	font-size: 30px;
-	margin-bottom: 25px;
-}
-
-strong {
-	font-weight: bold;
-}
-
-em {
-	font-style: italic;
+    width: 720px;
+    margin: auto;
+    padding: 20px 0;
 }
 
 .subtitulo-texto {
-	font-size: 30px;
-	clear: both;
+    font-size: 30px;
+    clear: both;
 }
 
 .icones-redes-sociais li {
-	display: inline-block;
-}
-
-.artigo {
-	padding-bottom: 30px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 20px;
-}
-
-.leia-mais {
-	padding: 8px;
-	margin: 16px;
-	display: block;
-	font-size: 24px;
-	text-align: center;
-	background-color: #E6E7E8;
+    display: inline-block;
 }
 
 nav a {
-	text-transform: lowercase;
+    text-transform: initial;
 }
 
 .icones-redes-sociais a {
-	width: 40px;
-	height: 40px;
-	display: block;
-	text-indent: -99999px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+    color: #ffffff;
 }
 
 .github {
-	background-image: url(github.png);
+    background-image: url(github.png);
 }
 
-.twitter {
-	background-image: url(twitter.png);
+.instagram {
+    background-image: url(instagram.png);
 }
 
 .linkedin {
-	background-image: url(linkedin.png);
+    background-image: url(linkedin.png);
 }
 
-.fiat {
-	float: right;
+.jobs {
+    float: right;
 }
 
-.petrobras {
-	float: left;
+.bill {
+    float: left;
 }
 
 main {
-	float: left;
-	width: 85%;
-	padding-bottom: 80px;
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
 }
 
-.minha-foto, .navegacao-site {
-	float: right;
-	box-sizing: border-box;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
+.minha-foto,
+.navegacao-site {
+    float: left;
+    margin-top: 60px;
 }
 
 cite {
-	font-style: italic;
-	float: right;
+    font-style: italic;
+    float: right;
 }
 
 .minha-foto {
-	position: absolute;
-	top: 0;
-	right: 0;
+    position: relative;
+    top: 155px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 0px;
 }
 
 .navegacao-site {
-	width: 15%;
-	position: relative;
-	top: 310px;
+    position: relative;
+    top: 0px;
+    margin-top: -150px;
+    margin-left: -20px;
+}
+
+.navegacao-site {
+    text-align: left;
+    background-color: #686d76;
+    color: #EEEEEE;
+    justify-content: left;
+    position: relative;
+}
+
+.navegacao-site a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: initial;
+}
+
+.citacao-bio,
+.navegacao-site,
+.rodape-pagina {
+    padding: 0px;
 }

@@ -138,6 +138,7 @@ cite {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-transform: initial;
+    list-style-type: none;
 }
 
 .citacao-bio,

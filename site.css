@@ -1,148 +1,142 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #EEEEEE;
-    font-size: 120%;
-    line-height: 1.5px;
-}
-
-h1,
-h2 {
-    font-family: 'Roboto', sans-serif;
-}
-
-.titulo-principal {
-    text-align: center;
-    background-color: #686d76;
-    color: #FFF;
-    padding: 15px;
-    font-size: 35px;
-    text-transform: uppercase;
-    width: 117.6%;
-}
-
-p {
-    text-align: justify;
-}
-
-.citacao-bio {
-    background-color: #a6a6a4;
-    border: 5px solid #C2CCCA;
-    width: 250px;
-    box-sizing: border-box;
-    margin: 20px 40px;
-}
-
-.rodape-pagina {
-    background-color: #000;
-    color: #F2FFFC;
-    clear: both;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
-main a {
-    color: #686d76;
-}
-
-.container {
-    width: 720px;
-    margin: auto;
-    padding: 20px 0;
-}
-
-.subtitulo-texto {
-    font-size: 30px;
-    clear: both;
-}
-
-.icones-redes-sociais li {
-    display: inline-block;
-}
-
-nav a {
-    text-transform: initial;
-}
-
-.icones-redes-sociais a {
-    width: 40px;
-    height: 40px;
-    display: block;
-    text-indent: -99999px;
-    color: #ffffff;
-}
-
-.github {
-    background-image: url(github.png);
-}
-
-.instagram {
-    background-image: url(instagram.png);
-}
-
-.linkedin {
-    background-image: url(linkedin.png);
-}
-
-.jobs {
-    float: right;
-}
-
-.bill {
-    float: left;
-}
-
-main {
-    float: left;
-    width: 85%;
-    padding-bottom: 80px;
-}
-
-.minha-foto,
-.navegacao-site {
-    float: left;
-    margin-top: 60px;
-}
-
-cite {
-    font-style: italic;
-    float: right;
-}
-
-.minha-foto {
-    position: relative;
-    top: 155px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
-    padding: 0px;
-}
-
-.navegacao-site {
-    position: relative;
-    top: 0px;
-    margin-top: -150px;
-    margin-left: -20px;
-}
-
-.navegacao-site {
-    text-align: left;
-    background-color: #686d76;
-    color: #EEEEEE;
-    justify-content: left;
-    position: relative;
-}
-
-.navegacao-site a {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-transform: initial;
-    list-style-type: none;
-}
-
-.citacao-bio,
-.navegacao-site,
-.rodape-pagina {
-    padding: 0px;
-}
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #EEEEEE;
+            font-size: 110%;
+            line-height: 1.5px;
+            text-align: center;
+        }
+        
+        h1,
+        h2 {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .titulo-principal {
+            text-align: center;
+            background-color: #686d76;
+            color: #FFF;
+            padding: 15px;
+            font-size: 35px;
+            text-transform: uppercase;
+            width: 117.6%;
+        }
+        
+        p {
+            text-align: justify;
+        }
+        
+        .citacao-bio {
+            background-color: #a6a6a4;
+            border: 5px solid #C2CCCA;
+            width: 250px;
+            box-sizing: border-box;
+            margin: 20px 40px;
+        }
+        
+        .rodape-pagina {
+            background-color: #000;
+            color: #F2FFFC;
+            clear: both;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        
+        .container {
+            width: 720px;
+            margin: auto;
+            padding: 20px 0;
+        }
+        
+        .subtitulo-texto {
+            font-size: 30px;
+            clear: both;
+        }
+        
+        .icones-redes-sociais li {
+            display: inline-block;
+        }
+        
+        nav a {
+            text-transform: initial;
+            text-align: left;
+        }
+        
+        .icones-redes-sociais a {
+            width: 40px;
+            height: 40px;
+            display: block;
+            text-indent: -99999px;
+            color: #ffffff;
+        }
+        
+        .github {
+            background-image: url(github.png);
+        }
+        
+        .instagram {
+            background-image: url(instagram.png);
+        }
+        
+        .linkedin {
+            background-image: url(linkedin.png);
+        }
+        
+        .jobs {
+            float: right;
+        }
+        
+        .bill {
+            float: left;
+        }
+        
+        main {
+            float: left;
+            width: 85%;
+            padding-bottom: 80px;
+        }
+        
+        .navegacao-site {
+            float: right;
+            margin-top: 0px;
+        }
+        
+        cite {
+            font-style: italic;
+            float: right;
+        }
+        
+        .minha-foto {
+            display: inline-block;
+            width: 20%;
+            position: fixed;
+            margin-top: 168px;
+        }
+        
+        .navegacao-site {
+            position: relative;
+            bottom: 20px;
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+        
+        .navegacao-site {
+            text-align: left;
+            background-color: #686d76;
+            color: #EEEEEE;
+            justify-content: left;
+        }
+        
+        .navegacao-site a {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 90%;
+            text-transform: initial;
+        }
+        
+        .navegacao-site ul {
+            list-style-type: none;
+        }

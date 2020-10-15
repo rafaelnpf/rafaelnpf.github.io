@@ -2,7 +2,6 @@
                 font-family: 'Roboto', sans-serif;
                 background-color: #EEEEEE;
                 font-size: 110%;
-                line-height: 1.5px;
                 text-align: center;
             }
             
@@ -15,6 +14,8 @@
                 text-align: center;
                 background-color: #686d76;
                 color: #FFF;
+                top: auto;
+                margin-top: auto;
                 padding: 15px;
                 font-size: 35px;
                 text-transform: uppercase;
@@ -26,11 +27,12 @@
             }
             
             .citacao-bio {
-                background-color: #a6a6a4;
-                border: 5px solid #C2CCCA;
-                width: 250px;
-                box-sizing: border-box;
+                background-color: lightgrey;
+                border-radius: 10px;
+                width: 200px;
+                border-style: solid, #686d76;
                 margin: 20px 40px;
+                text-align: center;
             }
             
             .rodape-pagina {
@@ -41,6 +43,7 @@
                 bottom: 0;
                 left: 0;
                 width: 100%;
+                text-align: center;
             }
             
             .container {
@@ -71,6 +74,7 @@
                 float: left;
                 width: 85%;
                 padding-bottom: 80px;
+                font-family: 'Roboto', sans-serif;
             }
             
             .navegacao-site {
@@ -87,7 +91,8 @@
                 display: inline-block;
                 width: 20%;
                 position: fixed;
-                margin-top: 168px;
+                margin-top: 75px;
+                right: 0px;
             }
             
             .navegacao-site {
@@ -133,4 +138,11 @@
                 background-color: #D6D6D6;
                 color: #6D6D6D;
                 border-bottom: 3px solid #EA0000;
+                border-radius: 10px;
+            }
+            
+            .carousel-inner>.item>img,
+            .carousel-inner>.item>a>img {
+                width: 100%;
+                margin: none;
             }

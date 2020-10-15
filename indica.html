@@ -6,54 +6,108 @@
     <meta charset="utf-8">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="site.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+
     <main>
         <h1 class="titulo-principal">Rafael Nunes</h1>
 
         <section class="container">
 
+
             <h2 class="subtitulo-texto">Minhas Indicações</h2>
 
             <p>Esses são os meus livros de estudo favoritos:</p>
 
-            <br>
+            <section class="container">
+                <section id="myCarousel" class="carousel slide" data-interval="200">
 
-            <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <section class="carousel-inner">
-                    <section class="carousel-item active">
-                        <img src="livro1.jpeg" class="d-block w-100" alt="Livro">
+                    <ol class="carousel-indicators">
+                        <li class="item1 active"></li>
+                        <li class="item2"></li>
+                        <li class="item3"></li>
+                    </ol>
+
+                    <section class="carousel-inner" role="listbox">
+                        <section class="item active">
+                            <img src="livro1.jpeg" alt="Livro" width="300" height="300">
+                        </section>
+
+                        <section class="item">
+                            <img src="livro2.jpg" alt="Livro" width="300" height="300">
+                        </section>
+
+                        <section class="item">
+                            <img src="livro3.jpg" alt="Livro" width="300" height="300">
+                        </section>
+
                     </section>
-                    <section class="carousel-item">
-                        <img src="livro2.jpg" class="d-block w-100" alt="Livro">
-                    </section>
-                    <section class="carousel-item">
-                        <img src="livro3.jpg" class="d-block w-100" alt="Livro">
-                    </section>
+                    <a class="left carousel-control" href="#myCarousel" role="button">
+                        <lang class="glyphicon glyphicon-chevron-left" aria-hidden="true"></lang>
+                        <lang class="sr-only">Previous</lang>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button">
+                        <lang class="glyphicon glyphicon-chevron-right" aria-hidden="true"></lang>
+                        <lang class="sr-only">Next</lang>
+                    </a>
                 </section>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </section>
+
+            <script>
+                $(document).ready(function() {
+                    // Activate Carousel
+                    $("#myCarousel").carousel("pause");
+
+                    // Click on the button to start sliding 
+                    $("#myBtn").click(function() {
+                        $("#myCarousel").carousel("cycle");
+                    });
+
+                    // Click on the button to stop sliding 
+                    $("#myBtn2").click(function() {
+                        $("#myCarousel").carousel("pause");
+                    });
+
+                    // Enable Carousel Indicators
+                    $(".item1").click(function() {
+                        $("#myCarousel").carousel(0);
+                    });
+                    $(".item2").click(function() {
+                        $("#myCarousel").carousel(1);
+                    });
+                    $(".item3").click(function() {
+                        $("#myCarousel").carousel(2);
+                    });
+                    $(".item4").click(function() {
+                        $("#myCarousel").carousel(3);
+                    });
+
+                    // Enable Carousel Controls
+                    $(".left").click(function() {
+                        $("#myCarousel").carousel("prev");
+                    });
+                    $(".right").click(function() {
+                        $("#myCarousel").carousel("next");
+                    });
+                });
+            </script>
+
+            <h2 class="subtitulo-texto">Canais no YouTube que acompanho para aprender mais :</h2>
+
+            <p><a href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw">Filipe Deschamps</a></p>
+            <p><a href="https://www.youtube.com/channel/UC5WWNfEzz8gOzijWT9tsW8w">Programador Br</a></p>
+            <p><a href="https://www.youtube.com/user/aluracursosonline">Alura Cursos Online</a></p>
 
         </section>
 
     </main>
-    <img src="eu.jpeg" alt="Foto de Rafael Nunes" class="minha-foto">
+
     <aside class="navegacao-site">
         <h1></h1>
         <nav>
@@ -70,6 +124,7 @@
     <footer class="rodape-pagina">
         Rafael Nunes &copy; 2020 rafaelnpf.dev@gmail.com
     </footer>
+
 </body>
 
 </html>

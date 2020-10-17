@@ -51,6 +51,7 @@
                 margin: auto;
                 padding: 20px 0;
                 font-family: 'Roboto', sans-serif;
+                font-size: 110%;
                 text-align: justify;
             }
             
@@ -143,8 +144,13 @@
                 border-radius: 10px;
             }
             
-            .carousel-inner>.item>img,
-            .carousel-inner>.item>a>img {
+            .carousel {
                 width: 75%;
                 margin: auto;
+                align-items: center;
+            }
+            
+            .indicacoes {
+                list-style-type: none;
+                padding-bottom: 0px;
             }

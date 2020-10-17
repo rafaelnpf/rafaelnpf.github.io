@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="site.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,87 +25,46 @@
 
             <p>Esses são os meus livros de estudo favoritos:</p>
 
-            <section class="container">
-                <section id="myCarousel" class="carousel slide">
-
+            <main id="carousel">
+                <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li class="item1 active"></li>
-                        <li class="item2"></li>
-                        <li class="item3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
-
-                    <section class="carousel-inner" role="listbox">
-                        <section class="item active">
-                            <img src="livro1.jpeg" alt="Livro" width="300" height="300">
+                    <section class="carousel-inner">
+                        <section class="carousel-item active">
+                            <img class="d-block w-100" src="livro1.jpeg" alt="Livro">
                         </section>
-
-                        <section class="item">
-                            <img src="livro2.jpg" alt="Livro" width="300" height="300">
+                        <section class="carousel-item">
+                            <img class="d-block w-100" src="livro2.jpg" alt="Livro">
                         </section>
-
-                        <section class="item">
-                            <img src="livro3.jpg" alt="Livro" width="300" height="300">
+                        <section class="carousel-item">
+                            <img class="d-block w-100" src="livro3.jpg" alt="Livro">
                         </section>
-
                     </section>
-                    <a class="left carousel-control" href="#myCarousel" role="button">
-                        <lang class="glyphicon glyphicon-chevron-left" aria-hidden="true"></lang>
-                        <lang class="sr-only">Previous</lang>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
                     </a>
-                    <a class="right carousel-control" href="#myCarousel" role="button">
-                        <lang class="glyphicon glyphicon-chevron-right" aria-hidden="true"></lang>
-                        <lang class="sr-only">Next</lang>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
                     </a>
                 </section>
-            </section>
 
-            <script>
-                $(document).ready(function() {
-                    // Activate Carousel
-                    $("#myCarousel").carousel("pause");
+                <br>
 
-                    // Click on the button to start sliding 
-                    $("#myBtn").click(function() {
-                        $("#myCarousel").carousel("cycle");
-                    });
+                <h2 class="subtitulo-texto">Canais no YouTube que acompanho para aprender mais :</h2>
 
-                    // Click on the button to stop sliding 
-                    $("#myBtn2").click(function() {
-                        $("#myCarousel").carousel("pause");
-                    });
-
-                    // Enable Carousel Indicators
-                    $(".item1").click(function() {
-                        $("#myCarousel").carousel(0);
-                    });
-                    $(".item2").click(function() {
-                        $("#myCarousel").carousel(1);
-                    });
-                    $(".item3").click(function() {
-                        $("#myCarousel").carousel(2);
-                    });
-                    $(".item4").click(function() {
-                        $("#myCarousel").carousel(3);
-                    });
-
-                    // Enable Carousel Controls
-                    $(".left").click(function() {
-                        $("#myCarousel").carousel("prev");
-                    });
-                    $(".right").click(function() {
-                        $("#myCarousel").carousel("next");
-                    });
-                });
-            </script>
-
-            <h2 class="subtitulo-texto">Canais no YouTube que acompanho para aprender mais :</h2>
-
-            <p><a href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw">Filipe Deschamps</a></p>
-            <p><a href="https://www.youtube.com/channel/UC5WWNfEzz8gOzijWT9tsW8w">Programador Br</a></p>
-            <p><a href="https://www.youtube.com/user/aluracursosonline">Alura Cursos Online</a></p>
+                <ul id="indicacoes">
+                    <li><a href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw">Filipe Deschamps</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC5WWNfEzz8gOzijWT9tsW8w">Programador Br</a></li>
+                    <li><a href="https://www.youtube.com/user/aluracursosonline">Alura Cursos Online</a></li>
+                </ul>
 
         </section>
-
+        </main>
     </main>
 
     <aside class="navegacao-site">

@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="License" src="https://img.shields.io/github/license/rafaelnpf/Calculadora-IMC">
+    <img alt="License" src="https://github.com/rafaelnpf/rafaelnpf.github.io/blob/master/LICENSE">
 </p>
 <br>
 
